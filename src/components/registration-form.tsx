@@ -138,8 +138,8 @@ export function RegistrationForm() {
   return (
     <Card className="shadow-lg">
       <CardHeader>
-        <CardTitle className="font-headline text-3xl text-primary">FormFlow</CardTitle>
-        <CardDescription>Enter your details below to create your account.</CardDescription>
+        <CardTitle className="font-headline text-3xl text-primary">Registration Form</CardTitle>
+        <CardDescription>Enter your details below to register</CardDescription>
       </CardHeader>
       <CardContent>
         <Form {...form}>
@@ -151,7 +151,7 @@ export function RegistrationForm() {
                 <FormItem>
                   <FormLabel>Full Name</FormLabel>
                   <FormControl>
-                    <Input placeholder="John Doe" {...field} className="focus:ring-accent focus:border-accent"/>
+                    <Input placeholder="Your full name" {...field} className="focus:ring-accent focus:border-accent"/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -164,7 +164,7 @@ export function RegistrationForm() {
                 <FormItem>
                   <FormLabel>Email</FormLabel>
                   <FormControl>
-                    <Input type="email" placeholder="john.doe@example.com" {...field} className="focus:ring-accent focus:border-accent"/>
+                    <Input type="email" placeholder="name@example.com" {...field} className="focus:ring-accent focus:border-accent"/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
