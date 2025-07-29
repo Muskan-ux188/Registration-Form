@@ -138,7 +138,7 @@ export function RegistrationForm() {
   return (
     <Card className="shadow-lg">
       <CardHeader>
-        <CardTitle className="font-headline text-3xl text-primary">Registration Form</CardTitle>
+        <CardTitle className="font-headline text-3xl text-primary">Vault Of Codes</CardTitle>
         <CardDescription>Enter your details below to register</CardDescription>
       </CardHeader>
       <CardContent>
