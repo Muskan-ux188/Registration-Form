@@ -362,8 +362,8 @@ export function RegistrationForm() {
                     <FormDescription>
                       You agree to our <a href="#" className="text-primary hover:underline">Terms of Service</a> and <a href="#" className="text-primary hover:underline">Privacy Policy</a>.
                     </FormDescription>
-                    <FormMessage />
                   </div>
+                  <FormMessage />
                 </FormItem>
               )}
             />
